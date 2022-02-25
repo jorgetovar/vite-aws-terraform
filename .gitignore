@@ -1,0 +1,27 @@
+# Terraform files
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+*.terraform.lock.hcl
+
+# logs
+*.log
+
+# Directories
+.terraform/
+
+# SSH Keys
+*.pem
+
+# Backup files
+*.bak
+*.swp
+
+# Ignore .DS_Store files
+.DS_Store
+
+# Ignore vscode files
+.vscode/
+
+# Ignore .idea files
+.idea/
