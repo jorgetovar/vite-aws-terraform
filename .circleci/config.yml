@@ -35,7 +35,7 @@ workflows:
   main:
     jobs:
       - build-and-test:
-          context: gh-dev
+          context: vite-demo
           filters:
             branches:
               only:
