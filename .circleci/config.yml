@@ -13,7 +13,9 @@ jobs:
       - aws-cli/setup
       - run:
           name: Install Packages
-          command: npm install
+          command: |
+            cd vite-aws-terraform-app
+            npm install
       - save_cache:
           key: dependency-cache-{{ checksum "package-lock.json" }}
           paths:
