@@ -31,7 +31,6 @@ resource "aws_s3_bucket" "vite_aws_website_bucket" {
 
 resource "aws_s3_bucket_policy" "site" {
   bucket = aws_s3_bucket.vite_aws_website_bucket.id
-
   policy = jsonencode({
     Version   = "2012-10-17"
     Statement = [
