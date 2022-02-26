@@ -16,9 +16,7 @@ function App() {
             count is: {count}
           </button>
         </p>
-        <p>
-          Edit <code>App.jsx</code> and save to test HMR updates.
-        </p>
+     
         <p>
           <a
             className="App-link"
