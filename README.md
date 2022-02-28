@@ -1,6 +1,6 @@
 # vite-aws-terraform
 
-This repository is a getting started example about how to create a static website in a simple way. The tech stack includes:
+This repository is a getting started example about how to create a static website simply with IaC, compilation time of milliseconds, and CI/CD. The tech stack includes:
 
 - [Vite](https://vitejs.dev/): Next Generation Frontend Tooling 
 - [AWS](https://aws.amazon.com/): Hosting the website using S3 (In the future I will post an update with Cloudfront and Route53)
@@ -8,9 +8,9 @@ This repository is a getting started example about how to create a static websit
 - [CircleCI](https://circleci.com/): Continuous integration and deployment
 
 
-## Vite (Ultra fast hot-reload and build)
+## Vite (Ultrafast hot-reload and build)
 
-It can often take an unreasonably long wait to spin up a dev server. Component updates can take a couple seconds or even minutes in some cases to be reflected in the browser. Vite aims to address these issues.
+It can often take an unreasonably long wait to spin up a dev server. Component updates can take a couple of seconds or even minutes in some cases to be reflected in the browser. Vite aims to address these issues.
 
 **"The slow feedback loop can greatly affect developers' productivity and happiness."**
 
@@ -72,7 +72,9 @@ s3_bucket_arn = "arn:aws:s3:::vite-aws-terraform"
 
 ## CircleCI
 
-Fast, customizable and reliable service to create pipelines an automate your deployments. The ORBs make very easy to integrate and deploy in AWS and others providers.
+Fast, customizable, and reliable service to create pipelines and automate your deployments. The ORBs make it very easy to integrate and deploy in AWS and others providers. 
+
+**12 seconds to update the website.**
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tl64lm7496fuvgs1qriu.png)
  
