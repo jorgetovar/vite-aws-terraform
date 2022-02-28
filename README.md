@@ -16,6 +16,7 @@ https://github.com/jorgetovar/vite-aws-terraform/tree/main/.circleci
 
 It can often take an unreasonably long wait to spin up a dev server. Component updates can take a couple of seconds or even minutes in some cases to be reflected in the browser. Vite aims to address these issues.
 
+
 **"The slow feedback loop can greatly affect developers' productivity and happiness."**
 
 ```javascript
@@ -80,8 +81,3 @@ Fast, customizable, and reliable service to create pipelines and automate your d
 **12 seconds to update the website.**
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tl64lm7496fuvgs1qriu.png)
- 
-
-
- 
- 
