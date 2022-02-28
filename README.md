@@ -3,13 +3,16 @@
 This repository is a getting started example about how to create a static website simply with IaC, compilation time of milliseconds, and CI/CD. The tech stack includes:
 
 - [Vite](https://vitejs.dev/): Next Generation Frontend Tooling 
-https://github.com/jorgetovar/vite-aws-terraform/tree/main/vite-aws-terraform-app
+(https://github.com/jorgetovar/vite-aws-terraform/tree/main/vite-aws-terraform-app)
+
 - [AWS](https://aws.amazon.com/): Hosting the website using S3 (In the future I will post an update with Cloudfront and Route53)
-http://vite-aws-website-bucket.s3-website-us-east-1.amazonaws.com/
+(http://vite-aws-website-bucket.s3-website-us-east-1.amazonaws.com/)
+
 - [Terraform](https://www.terraform.io/): Infrastructure as Code 
-https://github.com/jorgetovar/vite-aws-terraform/tree/main/infra
+(https://github.com/jorgetovar/vite-aws-terraform/tree/main/infra)
+
 - [CircleCI](https://circleci.com/): Continuous integration and deployment
-https://github.com/jorgetovar/vite-aws-terraform/tree/main/.circleci
+(https://github.com/jorgetovar/vite-aws-terraform/tree/main/.circleci)
 
 
 ## Vite (Ultrafast hot-reload and build)
