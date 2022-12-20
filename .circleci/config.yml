@@ -5,7 +5,7 @@ orbs:
   aws-s3: circleci/aws-s3@3.0.0
 
 jobs:
-  build-and-test:
+  build-and-deploy:
     docker:
       - image: cimg/node:14.17.4
     steps:
@@ -37,7 +37,7 @@ jobs:
 workflows:
   main:
     jobs:
-      - build-and-test:
+      - build-and-deploy:
           context: vite-demo
           filters:
             branches:
